@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const fs = require("fs");
 const {CI, CI_MERGE_REQUEST_TITLE} = process.env;
 
