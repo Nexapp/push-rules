@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "title":{
+      "regExp": "\/\\d\/",
+      "explanation": "You must start with feat, fix chore, etc"
+    }
+  }
+}

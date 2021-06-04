@@ -1,1 +1,6 @@
+src/
+tsconfig.json
+webpack.config.js
+.eslintrc
+.gitignore
 .push-rulerc

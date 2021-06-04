@@ -2,16 +2,43 @@
   "name": "@nexapp/push-rules",
   "version": "1.0.2",
   "description": "",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "src/index.ts",
+  "bin": "lib/index.js",
   "homepage": "https://github.com/Nexapp/push-rules",
   "repository": {
     "type": "git",
     "url": "https://github.com/Nexapp/push-rules"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production",
+    "lint": "eslint .",
+    "test": "jest --runInBand",
+    "tsc": "tsc"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@nexapp/eslint-config": "^1.0.0",
+    "@types/colors": "^1.2.1",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.12.0",
+    "@types/node-fetch": "^2.5.10",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "4.26.0",
+    "esbuild": "^0.12.6",
+    "esbuild-jest": "^0.5.0",
+    "esbuild-loader": "^2.13.1",
+    "eslint": "^7.27.0",
+    "eslint-plugin-ava": "^12.0.0",
+    "eslint-plugin-import": "2.23.4",
+    "jest": "^27.0.4",
+    "jest-each": "^27.0.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
 }
