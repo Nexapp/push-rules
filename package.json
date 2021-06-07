@@ -1,9 +1,9 @@
 {
   "name": "@nexapp/push-rules",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "main": "src/index.ts",
-  "bin": "lib/index.js",
+  "bin": "lib/run",
   "homepage": "https://github.com/Nexapp/push-rules",
   "repository": {
     "type": "git",
